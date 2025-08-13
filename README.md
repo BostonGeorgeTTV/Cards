@@ -162,7 +162,7 @@ exports("PlayerSearch", Utils.PlayerSearch)
             {
                 label = "Mostra",
                 action = function(slot)
-                    TriggerEvent('mi-card:client:showCardsToTarget', slot)
+                    TriggerEvent('bg_cardsclient:showCardsToTarget', slot)
                 end
             }
         },
@@ -177,7 +177,7 @@ exports("PlayerSearch", Utils.PlayerSearch)
             {
                 label = "Mostra",
                 action = function(slot)
-                    TriggerEvent('mi-card:client:showCardsToTarget', slot)
+                    TriggerEvent('bg_cardsclient:showCardsToTarget', slot)
                 end
             }
         },
@@ -192,7 +192,7 @@ exports("PlayerSearch", Utils.PlayerSearch)
             {
                 label = "Mostra",
                 action = function(slot)
-                    TriggerEvent('mi-card:client:showCardsToTarget', slot)
+                    TriggerEvent('bg_cardsclient:showCardsToTarget', slot)
                 end
             }
         },
